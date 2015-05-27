@@ -136,3 +136,15 @@ h1, h2, h3, h4, h5, h6 {
 .info-section__description {
   font-style: italic;
 }
+
+.education-experience__list li {
+  height: 200px;
+}
+.education-experience__list li img {
+  float: left;
+  width: 180px;
+  margin-right: 40px;
+}
+.education-experience__list li div {
+  overflow: hidden;
+}
