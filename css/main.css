@@ -166,3 +166,49 @@ width: 25%;
 padding: 10px;
 width: 100%;
 }
+
+.get-in-touch__list li{
+float: left;
+width: 25%;
+text-align: center;
+}
+
+.get-in-touch__list li a{
+padding: 10px;
+width: 100%;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+.contact form{
+width: 40%;
+margin: 0 auto;
+}
+
+.contact div{
+  position: relative;
+}
+
+.contact  input{
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+}
