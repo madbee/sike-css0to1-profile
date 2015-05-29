@@ -181,8 +181,11 @@ width: 100%;
 .contact input,
 .contact textarea {
   border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 8px;
+  border-radius: 4px; 
+  width: 100%;
+  padding 8px;
+  margin: 10px auto;
+  
 }
 
 .contact button {
@@ -198,17 +201,8 @@ width: 100%;
 }
 
 .contact form{
-width: 40%;
-margin: 0 auto;
+  width: 40%;
+  margin: 0 auto;
 }
 
-.contact div{
-  position: relative;
-}
 
-.contact  input{
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 100%;
-}
